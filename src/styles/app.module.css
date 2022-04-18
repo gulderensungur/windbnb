@@ -1,0 +1,13 @@
+body {
+}
+.container {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr min(865px, 100%) 1fr;
+  grid-template-rows: 96px 1fr 64px;
+}
+
+.container > * {
+  grid-column: 2;
+}

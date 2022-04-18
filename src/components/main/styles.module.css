@@ -1,0 +1,25 @@
+main {
+  margin-top: 4rem;
+}
+.mainTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+}
+.mainTitle h2 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mainTitle p {
+  font-size: 14px;
+  color: #4f4f4f;
+}
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}

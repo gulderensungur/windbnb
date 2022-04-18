@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20 px;
+}
+.cardImage {
+  height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  min-height: 200px;
+}
+.cardImage img {
+  height: 100%;
+  object-fit: cover;
+}
+.roomInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.property {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+/* .rating icon {
+  color: #eb5757;
+} */
+.roomType {
+  font-size: 14px;
+  color: #828282;
+  font-weight: 500;
+}
+.superHost {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border: 1px solid #4f4f4f;
+  color: #4f4f4f;
+  border-radius: 12px;
+  width: 100px;
+  text-align: center;
+  padding: 4px;
+}
+.ratingNumber {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+.roomTitle {
+  font-size: 16px;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
