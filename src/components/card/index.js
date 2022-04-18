@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Card(props) {
   const { data } = props;
@@ -19,7 +17,6 @@ function Card(props) {
           )}
           <p className={styles.roomType}>{data.type}</p>
           <div className={styles.rating}>
-            <FontAwesomeIcon icon={faStar} />
             <p className={styles.ratingNumber}>{data.rating}</p>
           </div>
         </div>
